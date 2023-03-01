@@ -56,7 +56,23 @@
         }
       }
 
-      .navbar .nav-link {
+      .navbar {
+        color: #030303 !important;
+        position: fixed;
+        top: 0;
+        width: 101%;
+        z-index: 1;
+        border-radius: 1rem;
+        border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        border: 6px solid #fecd1a;
+        margin-top: -1rem;
+        padding: 10px;
+        margin-left: -5px;
+        margin-right: -5px;
+        background-color: white;
+      }
+      .nav-link {
         color: #030303 !important;
       }
     </style>
@@ -84,7 +100,7 @@
               <a class="nav-link" href="#service">Service</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <a class="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
 
@@ -496,7 +512,82 @@
     </div>
   </main>
   <!--Main layout-->
-
+  <section class="text-center" id="contact">
+    <h4 class="mb-5"><strong>CONTACT</strong></h4>
+  <div class="container">
+    <div class="row">
+      <div class="col-md">
+        <div class="contact-grid1">
+          <img src="img/contact.jpg" width="300" height="210">
+          <br>
+          <span style="font-weight: bold;">Jhon Doe At Info@ac.agency</span>
+        <p>New business, general and press.</p>
+        <span style="font-weight: bold;">+780-918-5736</span>
+        <p>Feel free to give us a call.</p>
+        <span style="font-weight: bold;">Careers@ac.agency</span>
+        <p>If you wish to join us.</p>
+        <span style="font-weight: bold;">Head Office</span>
+        <p>N 2239 Turnpike Drive, Birmingham,
+          Alabama, 35222. United States</p>
+        </div>
+        
+      </div>
+      <div class="col-md">
+        <form>
+          <!-- 2 column grid layout with text inputs for the first and last names -->
+          <div class="row mb-4">
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form6Example1" class="form-control" />
+                <label class="form-label" for="form6Example1">First name</label>
+              </div>
+            </div>
+            <div class="col">
+              <div class="form-outline">
+                <input type="text" id="form6Example2" class="form-control" />
+                <label class="form-label" for="form6Example2">Last name</label>
+              </div>
+            </div>
+          </div>
+        
+          <!-- Text input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form6Example3" class="form-control" />
+            <label class="form-label" for="form6Example3">Company name</label>
+          </div>
+        
+          <!-- Text input -->
+          <div class="form-outline mb-4">
+            <input type="text" id="form6Example4" class="form-control" />
+            <label class="form-label" for="form6Example4">Address</label>
+          </div>
+        
+          <!-- Email input -->
+          <div class="form-outline mb-4">
+            <input type="email" id="form6Example5" class="form-control" />
+            <label class="form-label" for="form6Example5">Email</label>
+          </div>
+        
+          <!-- Number input -->
+          <div class="form-outline mb-4">
+            <input type="number" id="form6Example6" class="form-control" />
+            <label class="form-label" for="form6Example6">Phone</label>
+          </div>
+        
+          <!-- Message input -->
+          <div class="form-outline mb-4">
+            <textarea class="form-control" id="form6Example7" rows="4"></textarea>
+            <label class="form-label" for="form6Example7">Additional information</label>
+          </div>
+        
+          <!-- Submit button -->
+          <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  </section>
+  
   <!--Footer-->
   <footer class="text-center text-lg-start">
     <!-- Section: Social media -->
