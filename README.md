@@ -1,6 +1,6 @@
 # ACREPAIR for Bootstrap 5
 
-[![GitHub Stars](https://img.shields.io/github/stars/Leuthra/acrepair?label=Star%20now&style=social)](https://github.com/Leuthra/acrepair/)
+[![GitHub Stars](https://img.shields.io/github/stars/Leuthra/acrepair?label=Star%20now&style=social)](https://github.com/Leuthra/acrepair)
 ___
 
 <table>
